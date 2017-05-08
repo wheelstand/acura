@@ -14,10 +14,24 @@ LANGUAGE_CHOICES = (
     ('FR', 'French'),
 )
 
-TRANSMISSIONS = (
-    ('AUT', 'Automtic'),
-    ('MAN', 'Manual'),
-    ('CVT', 'CVT'),
+TRANSMISSIONS_EN = (
+    ('AUT', 'Automatic (A)'),
+    ('MAN', 'Manual (M)'),
+    ('CVT', 'Continuously variable transmission (CVT)'),
+    ('6AT', '6AT'),
+    ('9AT', '9AT'),
+    ('7DCT', '7DCT'),
+    ('8DCT', '8DCT'),
+)
+
+TRANSMISSIONS_FR = (
+    ('AUT', 'Automatique (A)'),
+    ('MAN', 'Manuelle (M)'),
+    ('CVT', 'Transmission a variation continue (TVC)'),
+    ('6BA', '6BA'),
+    ('9BA', '9BA'),
+    ('7TDE', '7TDE'),
+    ('8TDE', '8TDE'),
 )
 
 DRIVETRAINS = (
@@ -25,6 +39,16 @@ DRIVETRAINS = (
     ('MAN', 'Manual'),
     ('FRW', 'Front-wheel'),
     ('FOW', 'Four-wheel'),
+)
+
+CITIES = (
+    ('Ottawa', 'Ottawa'),
+    ('Calgary', 'Calgary'),
+    ('Edmonton', 'Edmonton'),
+    ('Vancouver', 'Vancouver'),
+    ('Toronto', 'Toronto'),
+    ('Montreal', 'Montreal'),
+    ('Quebec', 'Quebec'),
 )
 
 
