@@ -4,6 +4,7 @@ Django app that provides a content management system for the wheelstand project.
 
 ### Prerequisites
 
+```
 Django==1.8.6
 Pillow==3.4.2
 django-admin-tools==0.8.0
@@ -16,7 +17,7 @@ django-model-utils==2.6
 django-rest-multiple-models==1.8.1
 django-sortedm2m==1.3.2
 psycopg2==2.6.2
-
+```
 
 ### Installing
 
